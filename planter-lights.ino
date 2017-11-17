@@ -37,7 +37,7 @@ void setup() {
 
 void lightOn() {
   // Turn on FAN
-  digitalWrite(FANPIN, HIGH); //High = 5v
+  digitalWrite(FANPIN, HIGH); //High = 5v sent to the fan
   
   // Setup grid
   int i;
