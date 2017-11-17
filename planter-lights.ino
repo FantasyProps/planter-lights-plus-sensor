@@ -37,7 +37,7 @@ void setup() {
 
 void lightOn() {
   // Turn on FAN
-  digitalWrite(FANPIN, HIGH);
+  digitalWrite(FANPIN, HIGH); //High = 5v
   
   // Setup grid
   int i;
@@ -65,7 +65,7 @@ void lightOn() {
 
 void lightOff() {
   // Turn off FAN
-  digitalWrite(FANPIN, LOW);
+  digitalWrite(FANPIN, LOW); // Low = 0v as in off
   
   // Turn off all neopixels
   int i;
