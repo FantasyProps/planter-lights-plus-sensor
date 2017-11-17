@@ -8,7 +8,7 @@
 #endif
 
 // Set which digital pin we will use for the fan
-const int FANPIN       10
+const int FANPIN       0
 
 // Which pin on the arduino is connected to the neopixel grid?
 #define PIN            6
